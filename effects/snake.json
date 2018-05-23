@@ -1,0 +1,10 @@
+{
+	"name" : "Snake",
+	"script" : "snake.lua",
+	"args" :
+	{
+		"rotation-time" : 100,
+		"color" : [255, 0, 0],
+		"percentage" : 25
+	}
+}

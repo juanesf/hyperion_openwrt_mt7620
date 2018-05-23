@@ -1,0 +1,6 @@
+/home/juan/hyperion/build/external/serial/src/serial-lib-build/CMakeFiles/install.dir
+/home/juan/hyperion/build/external/serial/src/serial-lib-build/CMakeFiles/list_install_components.dir
+/home/juan/hyperion/build/external/serial/src/serial-lib-build/CMakeFiles/serial.dir
+/home/juan/hyperion/build/external/serial/src/serial-lib-build/CMakeFiles/install/local.dir
+/home/juan/hyperion/build/external/serial/src/serial-lib-build/CMakeFiles/rebuild_cache.dir
+/home/juan/hyperion/build/external/serial/src/serial-lib-build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/juan/hyperion/build/CMakeFiles/poco-lib"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/CMakeFiles/poco-lib.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/CMakeFiles/poco-lib-complete.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/poco/src/poco-lib-stamp/poco-lib-install.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/poco/src/poco-lib-stamp/poco-lib-mkdir.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/poco/src/poco-lib-stamp/poco-lib-download.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/poco/src/poco-lib-stamp/poco-lib-update.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/poco/src/poco-lib-stamp/poco-lib-patch.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/poco/src/poco-lib-stamp/poco-lib-configure.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/poco/src/poco-lib-stamp/poco-lib-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"poco-lib"
+		],
+		"name" : "poco-lib"
+	}
+}

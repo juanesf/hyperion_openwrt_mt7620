@@ -1,0 +1,10 @@
+{
+	"name" : "Rainbow mood",
+	"script" : "rainbow-mood.lua",
+	"args" :
+	{
+		"rotation-time" : 60000,
+		"brightness" : 255,
+		"reverse" : false
+	}
+}

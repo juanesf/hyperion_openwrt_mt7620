@@ -1,0 +1,3 @@
+/home/juan/hyperion/build/serial-lib/lib/libserial.a
+/home/juan/hyperion/build/serial-lib/serial/serial.h
+/home/juan/hyperion/build/serial-lib/serial/v8stdint.h

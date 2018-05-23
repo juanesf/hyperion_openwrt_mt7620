@@ -1,0 +1,543 @@
+The target system is: Linux -  - 
+The host system is: Linux - 4.4.0-53-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/juan/hyperion/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/juan/hyperion/build/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dfbe0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dfbe0.dir/build.make CMakeFiles/cmTC_dfbe0.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dfbe0.dir/testCCompiler.c.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc     -o CMakeFiles/cmTC_dfbe0.dir/testCCompiler.c.o   -c /home/juan/hyperion/build/CMakeFiles/CMakeTmp/testCCompiler.c
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_dfbe0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dfbe0.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc       CMakeFiles/cmTC_dfbe0.dir/testCCompiler.c.o  -o cmTC_dfbe0 -rdynamic 
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df504/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df504.dir/build.make CMakeFiles/cmTC_df504.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc     -o CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_df504
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df504.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc      -v CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o  -o cmTC_df504 -rdynamic  
+Reading specs from /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/specs
+COLLECT_GCC=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc
+COLLECT_LTO_WRAPPER=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/lto-wrapper
+Target: mipsel-openwrt-linux-uclibc
+Configured with: /home/buildbot/slave-local/ramips_mt7620/build/build_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 r47269' --prefix=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2 --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=mipsel-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --with-mpfr=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --with-mpc=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --disable-decimal-float --with-mips-plt --disable-libssp --disable-__cxa_atexit --with-headers=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib
+Thread model: posix
+gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r47269) 
+COMPILER_PATH=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/
+LIBRARY_PATH=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df504' '-rdynamic' '-msoft-float' '-mllsc' '-mplt' '-mno-shared'
+ /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTC_df504 /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3 -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o -lgcc_s -lc -lgcc_s /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-openwrt-linux-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_df504/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_df504.dir/build.make CMakeFiles/cmTC_df504.dir/build]
+  ignore line: [make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc     -o CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [Linking C executable cmTC_df504]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df504.dir/link.txt --verbose=1]
+  ignore line: [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc      -v CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o  -o cmTC_df504 -rdynamic  ]
+  ignore line: [Reading specs from /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/specs]
+  ignore line: [COLLECT_GCC=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/lto-wrapper]
+  ignore line: [Target: mipsel-openwrt-linux-uclibc]
+  ignore line: [Configured with: /home/buildbot/slave-local/ramips_mt7620/build/build_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 r47269' --prefix=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2 --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=mipsel-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --with-mpfr=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --with-mpc=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --disable-decimal-float --with-mips-plt --disable-libssp --disable-__cxa_atexit --with-headers=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r47269) ]
+  ignore line: [COMPILER_PATH=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/]
+  ignore line: [mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_df504' '-rdynamic' '-msoft-float' '-mllsc' '-mplt' '-mno-shared']
+  link line: [ /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTC_df504 /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3 -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o -lgcc_s -lc -lgcc_s /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o]
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_df504] ==> ignore
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o] ==> ignore
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o] ==> ignore
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/usr/lib] ==> ignore
+    arg [-L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3] ==> dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3]
+    arg [-L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc] ==> dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc]
+    arg [-L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib] ==> dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib]
+    arg [CMakeFiles/cmTC_df504.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o] ==> ignore
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3] ==> [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3]
+  collapse library dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc] ==> [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc]
+  collapse library dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib] ==> [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib;/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3;/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc;/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_254de/fast"
+/usr/bin/make -f CMakeFiles/cmTC_254de.dir/build.make CMakeFiles/cmTC_254de.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_254de.dir/feature_tests.c.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc    -std=c11 -o CMakeFiles/cmTC_254de.dir/feature_tests.c.o   -c /home/juan/hyperion/build/CMakeFiles/feature_tests.c
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_254de
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_254de.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc       CMakeFiles/cmTC_254de.dir/feature_tests.c.o  -o cmTC_254de -rdynamic 
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3c963/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3c963.dir/build.make CMakeFiles/cmTC_3c963.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3c963.dir/feature_tests.c.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc    -std=c99 -o CMakeFiles/cmTC_3c963.dir/feature_tests.c.o   -c /home/juan/hyperion/build/CMakeFiles/feature_tests.c
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_3c963
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c963.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc       CMakeFiles/cmTC_3c963.dir/feature_tests.c.o  -o cmTC_3c963 -rdynamic 
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6d01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6d01.dir/build.make CMakeFiles/cmTC_e6d01.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6d01.dir/feature_tests.c.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc    -std=c90 -o CMakeFiles/cmTC_e6d01.dir/feature_tests.c.o   -c /home/juan/hyperion/build/CMakeFiles/feature_tests.c
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_e6d01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6d01.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-gcc       CMakeFiles/cmTC_e6d01.dir/feature_tests.c.o  -o cmTC_e6d01 -rdynamic 
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-gcc: warning: environment variable 'STAGING_DIR' not defined
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ac78d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ac78d.dir/build.make CMakeFiles/cmTC_ac78d.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ac78d.dir/testCXXCompiler.cxx.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++      -o CMakeFiles/cmTC_ac78d.dir/testCXXCompiler.cxx.o -c /home/juan/hyperion/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_ac78d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac78d.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++        CMakeFiles/cmTC_ac78d.dir/testCXXCompiler.cxx.o  -o cmTC_ac78d -rdynamic 
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cba7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cba7b.dir/build.make CMakeFiles/cmTC_cba7b.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++      -o CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_cba7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba7b.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++       -v CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cba7b -rdynamic  
+Reading specs from /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/specs
+COLLECT_GCC=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++
+COLLECT_LTO_WRAPPER=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/lto-wrapper
+Target: mipsel-openwrt-linux-uclibc
+Configured with: /home/buildbot/slave-local/ramips_mt7620/build/build_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 r47269' --prefix=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2 --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=mipsel-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --with-mpfr=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --with-mpc=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --disable-decimal-float --with-mips-plt --disable-libssp --disable-__cxa_atexit --with-headers=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib
+Thread model: posix
+gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r47269) 
+COMPILER_PATH=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/
+LIBRARY_PATH=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cba7b' '-rdynamic' '-shared-libgcc' '-msoft-float' '-mllsc' '-mplt' '-mno-shared'
+ /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTC_cba7b /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3 -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lc -lgcc_s /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(mipsel-openwrt-linux-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cba7b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cba7b.dir/build.make CMakeFiles/cmTC_cba7b.dir/build]
+  ignore line: [make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++      -o CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [Linking CXX executable cmTC_cba7b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cba7b.dir/link.txt --verbose=1]
+  ignore line: [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++       -v CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_cba7b -rdynamic  ]
+  ignore line: [Reading specs from /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/specs]
+  ignore line: [COLLECT_GCC=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/lto-wrapper]
+  ignore line: [Target: mipsel-openwrt-linux-uclibc]
+  ignore line: [Configured with: /home/buildbot/slave-local/ramips_mt7620/build/build_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/gcc-linaro-4.8-2014.04/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 4.8-2014.04 r47269' --prefix=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2 --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=mipsel-openwrt-linux-uclibc --with-gnu-ld --enable-target-optspace --disable-libgomp --disable-libmudflap --disable-multilib --disable-nls --with-host-libstdcxx=-lstdc++ --with-float=soft --with-gmp=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --with-mpfr=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --with-mpc=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/host --disable-decimal-float --with-mips-plt --disable-libssp --disable-__cxa_atexit --with-headers=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/buildbot/slave-local/ramips_mt7620/build/staging_dir/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.3 (OpenWrt/Linaro GCC 4.8-2014.04 r47269) ]
+  ignore line: [COMPILER_PATH=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/bin/]
+  ignore line: [LIBRARY_PATH=/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/:/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/]
+  ignore line: [mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cba7b' '-rdynamic' '-shared-libgcc' '-msoft-float' '-mllsc' '-mplt' '-mno-shared']
+  link line: [ /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2 --eh-frame-hdr -EL -export-dynamic -dynamic-linker /lib/ld-uClibc.so.0 -o cmTC_cba7b /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3 -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc -L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lc -lgcc_s /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o /home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o]
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../libexec/gcc/mipsel-openwrt-linux-uclibc/4.8.3/collect2] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-uClibc.so.0] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cba7b] ==> ignore
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crt1.o] ==> ignore
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crti.o] ==> ignore
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/usr/lib] ==> ignore
+    arg [-L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3] ==> dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3]
+    arg [-L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc] ==> dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc]
+    arg [-L/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib] ==> dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib]
+    arg [CMakeFiles/cmTC_cba7b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/crtend.o] ==> ignore
+    arg [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3] ==> [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3]
+  collapse library dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc] ==> [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc]
+  collapse library dir [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/../lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3/../../../../mipsel-openwrt-linux-uclibc/lib] ==> [/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib;/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc/mipsel-openwrt-linux-uclibc/4.8.3;/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/lib/gcc;/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/mipsel-openwrt-linux-uclibc/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1y] compiler features compiled with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_dd118/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd118.dir/build.make CMakeFiles/cmTC_dd118.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dd118.dir/feature_tests.cxx.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++     -std=c++1y -o CMakeFiles/cmTC_dd118.dir/feature_tests.cxx.o -c /home/juan/hyperion/build/CMakeFiles/feature_tests.cxx
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_dd118
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd118.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++        CMakeFiles/cmTC_dd118.dir/feature_tests.cxx.o  -o cmTC_dd118 -rdynamic 
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06069/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06069.dir/build.make CMakeFiles/cmTC_06069.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06069.dir/feature_tests.cxx.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++     -std=c++11 -o CMakeFiles/cmTC_06069.dir/feature_tests.cxx.o -c /home/juan/hyperion/build/CMakeFiles/feature_tests.cxx
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_06069
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06069.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++        CMakeFiles/cmTC_06069.dir/feature_tests.cxx.o  -o cmTC_06069 -rdynamic 
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/juan/hyperion/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19822/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19822.dir/build.make CMakeFiles/cmTC_19822.dir/build
+make[1]: se entra en el directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_19822.dir/feature_tests.cxx.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++     -std=c++98 -o CMakeFiles/cmTC_19822.dir/feature_tests.cxx.o -c /home/juan/hyperion/build/CMakeFiles/feature_tests.cxx
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_19822
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19822.dir/link.txt --verbose=1
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-g++        CMakeFiles/cmTC_19822.dir/feature_tests.cxx.o  -o cmTC_19822 -rdynamic 
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+mipsel-openwrt-linux-g++: warning: environment variable 'STAGING_DIR' not defined
+make[1]: se sale del directorio '/home/juan/hyperion/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

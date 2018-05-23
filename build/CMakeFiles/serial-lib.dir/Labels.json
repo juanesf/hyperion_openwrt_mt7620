@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/juan/hyperion/build/CMakeFiles/serial-lib"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/CMakeFiles/serial-lib.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/CMakeFiles/serial-lib-complete.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-install.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-mkdir.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-download.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-update.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-patch.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-configure.rule"
+		},
+		{
+			"file" : "/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"serial-lib"
+		],
+		"name" : "serial-lib"
+	}
+}

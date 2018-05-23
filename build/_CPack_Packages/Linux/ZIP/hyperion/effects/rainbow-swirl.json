@@ -1,0 +1,10 @@
+{
+	"name" : "Rainbow swirl",
+	"script" : "rainbow-swirl.lua",
+	"args" :
+	{
+		"rotation-time" : 20000,
+		"brightness" : 255,
+		"reverse" : false
+	}
+}

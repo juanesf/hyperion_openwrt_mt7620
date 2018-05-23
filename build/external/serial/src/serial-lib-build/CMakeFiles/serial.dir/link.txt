@@ -1,0 +1,2 @@
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-ar qc libserial.a  CMakeFiles/serial.dir/src/serial.cc.o CMakeFiles/serial.dir/src/impl/unix.cc.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-ranlib libserial.a

@@ -1,0 +1,19 @@
+# Hashes of file build rules.
+5b89190c32dc6034ce16184f28c45c31 CMakeFiles/poco-lib
+1c07e1eb2502057d4f39675f43309220 CMakeFiles/poco-lib-complete
+5b89190c32dc6034ce16184f28c45c31 CMakeFiles/serial-lib
+9dcac5b0064ef237a12919b65e582f2e CMakeFiles/serial-lib-complete
+797ab6cf1e9cd6b86fca2cabe6b4d0ed external/poco/src/poco-lib-stamp/poco-lib-build
+7ee993839880389d8bf3615e01d6aa31 external/poco/src/poco-lib-stamp/poco-lib-configure
+11acc9db8a758a43f655e130f34e39f5 external/poco/src/poco-lib-stamp/poco-lib-download
+24d28f0767efadb0b0ce1fe919d35ab5 external/poco/src/poco-lib-stamp/poco-lib-install
+f974624149cf64e9b509761a270f76a8 external/poco/src/poco-lib-stamp/poco-lib-mkdir
+e1387c4b9ef922813dd199639162ac75 external/poco/src/poco-lib-stamp/poco-lib-patch
+fff2951f39a83eabe9fcf5db608106f1 external/poco/src/poco-lib-stamp/poco-lib-update
+7ae83ec987f09c4b5ede4229c6d39cfd external/serial/src/serial-lib-stamp/serial-lib-build
+4720f6b56c6323c5c25b373033f42598 external/serial/src/serial-lib-stamp/serial-lib-configure
+ef786f6cb1d03e20b60a4d6d51e8800d external/serial/src/serial-lib-stamp/serial-lib-download
+a74cca2a89827ee21d901becdecf4b72 external/serial/src/serial-lib-stamp/serial-lib-install
+3250cab765db606bc3c617fcba8e9b24 external/serial/src/serial-lib-stamp/serial-lib-mkdir
+f848e66f61638d100a18a161bcada6bf external/serial/src/serial-lib-stamp/serial-lib-patch
+3060b5c8b1283d40f669b54ad7fb9019 external/serial/src/serial-lib-stamp/serial-lib-update

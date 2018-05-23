@@ -1,0 +1,13 @@
+# Target labels
+ serial-lib
+# Source files and their labels
+/home/juan/hyperion/build/CMakeFiles/serial-lib
+/home/juan/hyperion/build/CMakeFiles/serial-lib.rule
+/home/juan/hyperion/build/CMakeFiles/serial-lib-complete.rule
+/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-install.rule
+/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-mkdir.rule
+/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-download.rule
+/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-update.rule
+/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-patch.rule
+/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-configure.rule
+/home/juan/hyperion/build/external/serial/src/serial-lib-stamp/serial-lib-build.rule

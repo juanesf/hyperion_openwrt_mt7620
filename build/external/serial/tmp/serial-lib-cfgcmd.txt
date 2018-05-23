@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_TOOLCHAIN_FILE=/home/juan/hyperion/platforms/openwrt_ramips/toolchain.cmake;-DCMAKE_BUILD_TYPE=MinSizeRel;-DCMAKE_INSTALL_PREFIX=<INSTALL_DIR>;-GUnix Makefiles;/home/juan/hyperion/build/external/serial/src/serial-lib'

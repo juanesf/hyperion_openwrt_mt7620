@@ -1,0 +1,2 @@
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-ar qc ../../lib/libblackborder.a  CMakeFiles/blackborder.dir/BlackBorderDetector.cpp.o CMakeFiles/blackborder.dir/BlackBorderProcessor.cpp.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-ranlib ../../lib/libblackborder.a

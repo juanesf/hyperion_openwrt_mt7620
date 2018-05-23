@@ -1,0 +1,2 @@
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-ar qc ../../lib/libleddevice.a  CMakeFiles/leddevice.dir/LedDeviceFactory.cpp.o CMakeFiles/leddevice.dir/LedDeviceTest.cpp.o CMakeFiles/leddevice.dir/LedRs232Device.cpp.o CMakeFiles/leddevice.dir/LedDeviceAdalight.cpp.o
+/home/juan/hyperion/build/toolchain/toolchain-mipsel_24kec+dsp_gcc-4.8-linaro_uClibc-0.9.33.2/bin/mipsel-openwrt-linux-ranlib ../../lib/libleddevice.a

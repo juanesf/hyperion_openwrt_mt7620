@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/blackborder/BlackBorderDetector.h
+utils/Image.h
+-
+
+../include/blackborder/BlackBorderProcessor.h
+BlackBorderDetector.h
+../include/blackborder/BlackBorderDetector.h
+
+../include/utils/Image.h
+vector
+-
+cstdint
+-
+cstring
+-
+algorithm
+-
+
+/home/juan/hyperion/libsrc/blackborder/BlackBorderDetector.cpp
+blackborder/BlackBorderDetector.h
+-
+
+/home/juan/hyperion/libsrc/blackborder/BlackBorderProcessor.cpp
+blackborder/BlackBorderProcessor.h
+-
+
