@@ -1,4 +1,4 @@
-set(TOOLCHAIN_URL "https://downloads.openwrt.org/chaos_calmer/15.05.1/ramips/mt7620/OpenWrt-SDK-15.05.1-ramips-mt7620_gcc-4.8-linaro_uClibc-0.9.33.2.Linux-x86_64.tar.bz2")
+set(TOOLCHAIN_URL "https://archive.openwrt.org/releases/18.06.1/targets/ramips/mt7620/openwrt-sdk-18.06.1-ramips-mt7620_gcc-7.3.0_musl.Linux-x86_64.tar.xz")
 
 set(CMAKE_SYSTEM_NAME Linux)
 
